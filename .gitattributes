@@ -1,0 +1,3 @@
+* text=auto
+*.wasm binary
+*.riv binary
