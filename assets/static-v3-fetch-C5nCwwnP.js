@@ -1,0 +1,1 @@
+export{r as installStaticV3Fetch}from"./static-v3-fetch-iW0CGKhw.js";
