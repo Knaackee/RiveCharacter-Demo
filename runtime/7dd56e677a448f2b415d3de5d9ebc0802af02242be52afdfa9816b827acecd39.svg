@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_pipette" d="M80,90 C80,52 102,36 128,36 C154,36 176,52 176,90 L176,150 C176,162 168,168 156,168 L100,168 C88,168 80,162 80,150 Z" fill="#E53935"></path><rect x="80" y="150" width="96" height="18" rx="8" fill="#B71C1C" opacity=".35"></rect><path d="M96,110 Q94,76 108,54" stroke="#fff" stroke-width="6" fill="none" opacity="0.4" stroke-linecap="round"></path></svg>

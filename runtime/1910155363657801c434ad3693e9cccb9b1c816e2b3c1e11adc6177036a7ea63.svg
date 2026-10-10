@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_bell" d="M128,44 C92,44 80,80 78,120 C76,160 64,180 44,196 L212,196 C192,180 180,160 178,120 C176,80 164,44 128,44 Z" fill="#E9B949"></path><rect x="40" y="190" width="176" height="14" rx="7" fill="#C9962E"></rect><path d="M60,186 L196,186" stroke="#F7E3A6" stroke-width="3"></path><path d="M96,80 Q100,60 116,52" stroke="#fff" stroke-width="7" fill="none" opacity=".5" stroke-linecap="round"></path></svg>

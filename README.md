@@ -1,12 +1,10 @@
 # RiveCharacter Demo
-[Open the live V2 playground](https://knaackee.github.io/RiveCharacter-Demo/)
+[Open Character Studio V3.0.0](https://knaackee.github.io/RiveCharacter-Demo/) · [Lootbox](https://knaackee.github.io/RiveCharacter-Demo/?candidate=lootbox)
 
-An interactive Rive character with 35 body shapes, accessories, expressions, actions and invitation gestures. Everything runs in your browser.
+Explore 283 figures, 981 catalog components, 392 public actions and 270 outfit recipes, including grill, food and science packs. Select a figure, change appearance and accessories, try actions or open the separate Lootbox scene. Configuration JSON remains available in the expert controls.
 
-Try **Deep focus**, **Say hello**, **Pick me!** or **Celebrate**, then explore the controls. **Reset** restores the default character. The sign controls include editable text, dimensions and a local font picker.
+This repository contains only the compiled public V3 Studio, browser runtime data and thumbnails. RIV resources are gzip-compressed for delivery and decompressed by modern browsers as needed. Editable REV backups, designer packages and private source history are not published here.
 
-This repository contains only the compiled V2 demo: HTML, CSS, JavaScript, Rive Canvas 2.44.0, WebAssembly and the runtime character asset. Editable backups, designer packs, Flutter code and development history remain in the private source repository.
+The source repository's existing Flutter example remains the separate V2 integration; this site is the modular JavaScript version. Not every possible combination or device is covered by the scoped acceptance checks.
 
-The published runtime asset and browser files are publicly downloadable. Their availability does not grant an additional license to the character artwork. Third-party license notices are included separately.
-
-GitHub Pages serves the `main` branch root. `.nojekyll` preserves the compiled assets. No custom domain, server, or paid service is required.
+Public availability does not grant an additional license to the artwork. Third-party notices are in `licenses/`. GitHub Pages serves the `main` branch root; `.nojekyll` preserves compiled files.

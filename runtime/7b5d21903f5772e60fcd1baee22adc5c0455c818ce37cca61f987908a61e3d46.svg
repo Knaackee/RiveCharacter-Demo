@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_magnet" d="M56,56 L108,56 L108,138 C108,160 148,160 148,138 L148,56 L200,56 L200,140 C200,192 166,224 128,224 C90,224 56,192 56,140 Z" fill="#E53935"></path><rect x="56" y="56" width="52" height="30" fill="#CFD8DC"></rect><rect x="148" y="56" width="52" height="30" fill="#CFD8DC"></rect><path d="M70,170 Q72,130 74,100" stroke="#fff" stroke-width="6" fill="none" opacity="0.35" stroke-linecap="round"></path></svg>

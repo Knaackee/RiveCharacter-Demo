@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_crystalgem" d="M128,36 L186,86 L178,198 L128,226 L78,198 L70,86 Z" fill="#9575CD"></path><path d="M128,36 L128,226 M70,86 L128,110 L186,86 M78,198 L128,170 L178,198" stroke="#fff" stroke-width="2.5" fill="none" opacity=".45"></path><path d="M128,36 L186,86 L128,110 Z" fill="#fff" opacity=".22"></path><path d="M70,86 L128,110 L128,170 L78,198 Z" fill="#000" opacity=".06"></path></svg>

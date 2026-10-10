@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_smoker" d="M86,96 L170,96 Q220,96 220,146 L220,150 Q220,200 170,200 L86,200 Q36,200 36,150 L36,146 Q36,96 86,96 Z" fill="#5A6378"></path><path d="M36,148 L220,148" stroke="#454A5C" stroke-width="4"></path><rect x="200" y="132" width="34" height="8" rx="4" fill="#8A5A3B"></rect><path d="M60,116 Q100,104 150,104" stroke="#fff" stroke-width="5" fill="none" opacity="0.3" stroke-linecap="round"></path></svg>

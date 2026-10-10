@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_volcano" d="M92,84 L164,84 L226,222 L30,222 Z" fill="#8D6E63"></path><path d="M92,84 L164,84 L170,98 C160,110 154,96 150,108 C144,124 136,112 132,104 C126,120 116,114 114,100 C108,108 98,108 92,98 Z" fill="#FFCC80"></path><path d="M30,222 L56,170 L82,206 L110,178 L146,210 L176,176 L226,222 Z" fill="#6D4C41" opacity=".35"></path><rect x="24" y="214" width="208" height="12" rx="4" fill="#A1887F"></rect></svg>

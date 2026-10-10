@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -30 276 290" width="552" height="580"><path data-part="body_flame" d="M128,30 C150,70 196,96 196,160 C196,204 166,228 128,228 C90,228 60,204 60,160 C60,124 80,108 92,84 C98,104 108,112 116,110 C110,80 112,54 128,30 Z" fill="#FF8A2B"></path><path class="o14flame" style="transform-origin:128px 228px" d="M128,96 C146,124 172,140 172,174 C172,206 152,222 128,222 C104,222 84,206 84,174 C84,150 98,138 106,122 C110,136 118,140 122,138 C118,120 120,108 128,96 Z" fill="#FFD84D"></path></svg>
