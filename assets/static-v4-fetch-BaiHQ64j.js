@@ -1,0 +1,1 @@
+import{t as e}from"./static-v3-fetch-BB3zW1kw.js";var t=e;async function n(e){let n=globalThis.fetch.bind(globalThis),r=await n(`${e}runtime/routes.json`,{cache:`no-store`});if(!r.ok)throw Error(`V4 runtime index unavailable`);globalThis.fetch=t({fetcher:n,base:e,routes:await r.json()})}export{n as installStaticV4Fetch};

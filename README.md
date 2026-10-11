@@ -1,10 +1,10 @@
 # RiveCharacter Demo
-[Open Character Studio V3.0.0](https://knaackee.github.io/RiveCharacter-Demo/) · [Lootbox](https://knaackee.github.io/RiveCharacter-Demo/?candidate=lootbox)
+[Open Character Studio V4](https://knaackee.github.io/RiveCharacter-Demo/)
 
-Explore 283 figures, 981 catalog components, 392 public actions and 270 outfit recipes, including grill, food and science packs. Select a figure, change appearance and accessories, try actions or open the separate Lootbox scene. Configuration JSON remains available in the expert controls.
+One studio for figures, movement, bicycles, Lootboxes and celebrations. Explore 283 figures, 981 accessories and extras, 123 movement definitions, 30 bicycle models, 17 Lootbox recipes and 18 celebration recipes. Open colorful category palettes, customize a figure and take it into a scene. Detailed controls and configuration JSON remain available.
 
-This repository contains only the compiled public V3 Studio, browser runtime data and thumbnails. RIV resources are gzip-compressed for delivery and decompressed by modern browsers as needed. Editable REV backups, designer packages and private source history are not published here.
+This repository contains only the compiled public V4 Studio, browser runtime data and sanitized thumbnails. Native RIV resources are compressed for delivery and loaded as needed. Editable REV backups, designer packages and private source history are excluded. The complete team delivery is the private RiveCharacter v4.0.0 release.
 
-The source repository's existing Flutter example remains the separate V2 integration; this site is the modular JavaScript version. Not every possible combination or device is covered by the scoped acceptance checks.
+The existing Flutter example remains the separate V2 integration. V4 includes JavaScript scene orchestration; native Rive bindings are portable, but equivalent full scene controllers for other platforms are not part of this release. Scoped acceptance checks do not cover every possible combination or device.
 
 Public availability does not grant an additional license to the artwork. Third-party notices are in `licenses/`. GitHub Pages serves the `main` branch root; `.nojekyll` preserves compiled files.

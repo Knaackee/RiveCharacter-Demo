@@ -1,1 +1,0 @@
-export{r as installStaticV3Fetch}from"./static-v3-fetch-Hdvf6ppP.js";
