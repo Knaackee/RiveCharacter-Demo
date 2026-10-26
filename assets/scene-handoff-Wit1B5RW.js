@@ -1,0 +1,1 @@
+export{t as STUDIO_HANDOFF_KEY,n as STUDIO_HANDOFF_VERSION,r as installSceneStudioNavigation,i as isStudioV4Scene,a as normalizeStudioHandoffConfig,o as projectStudioHandoffForScene,s as readStudioHandoff,c as restoreStudioHandoffResources,l as saveStudioHandoff,u as scenePreviewUrl,d as shouldUseStudioHandoff,f as studioEditorUrl}from"./scene-handoff-CjbxI4aS.js";
