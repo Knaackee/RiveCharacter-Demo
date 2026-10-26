@@ -1,0 +1,93 @@
+{
+  "artboards": [
+    "Front Room",
+    "Front Own Side"
+  ],
+  "stateMachine": "Room",
+  "viewModel": "Room",
+  "instance": "Default",
+  "dimensions": [
+    900,
+    470
+  ],
+  "layout": "front-only",
+  "personTop": 110,
+  "personSize": [
+    240,
+    360
+  ],
+  "seatCenters": {
+    "1": [
+      450
+    ],
+    "2": [
+      300,
+      600
+    ],
+    "3": [
+      200,
+      450,
+      700
+    ]
+  },
+  "properties": [
+    {
+      "name": "tableColor",
+      "type": "Color",
+      "default": "#B59171"
+    },
+    {
+      "name": "ownSide",
+      "type": "Boolean",
+      "default": false
+    },
+    {
+      "name": "background",
+      "type": "Enum",
+      "values": [
+        "meeting",
+        "skyline",
+        "modern",
+        "boardroom",
+        "situation",
+        "bunker"
+      ],
+      "default": "meeting"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "meeting",
+      "label": "Besprechungsraum",
+      "preview": "./backgrounds/meeting.svg"
+    },
+    {
+      "id": "skyline",
+      "label": "Skyline",
+      "preview": "./backgrounds/skyline.svg"
+    },
+    {
+      "id": "modern",
+      "label": "Modernes Büro",
+      "preview": "./backgrounds/modern.svg"
+    },
+    {
+      "id": "boardroom",
+      "label": "Vorstandszimmer",
+      "preview": "./backgrounds/boardroom.svg"
+    },
+    {
+      "id": "situation",
+      "label": "Lagezentrum",
+      "preview": "./backgrounds/situation.svg"
+    },
+    {
+      "id": "bunker",
+      "label": "Bunker",
+      "preview": "./backgrounds/bunker.svg"
+    }
+  ],
+  "sha256": {
+    "riv": "debcaff989cd882ea11698d91e2442d4728ac25aa1ea4d7e81be00ebdb16d732"
+  }
+}

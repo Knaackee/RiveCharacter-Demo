@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verhandlung · Playground</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">V4.1.0 · Verhandlung</p>
+      <h1>Verhandlung · Playground</h1>
+    </div>
+    <p class="scope">Native Verhandlungsszene neben 20 klar gekennzeichneten SVG-Referenzen. Ziel ist ausschließlich das Frontlayout; U-Form ist ausgenommen.</p>
+    <a class="back-link" href="../">← Character Studio</a>
+  </header>
+
+  <main>
+    <section class="comparison" aria-label="Native und Quelle im Vergleich">
+      <article class="panel native-panel">
+        <header class="panel-head">
+          <div>
+            <span class="kind native-kind">Native Rive-Szene</span>
+            <h2>Person-Rig</h2>
+          </div>
+          <div class="native-load-actions">
+            <label>Build
+              <select id="native-profile">
+                <option value="production">Vollständiges Rig</option>
+                <option value="debug">Technischer Probe</option>
+              </select>
+            </label>
+            <button id="reload-native" class="secondary" type="button">Neu laden</button>
+          </div>
+        </header>
+        <div class="stage native-stage">
+          <div id="native-canvases" class="native-canvases"></div>
+          <div id="native-message" class="stage-message" role="status">Native Datei wird gesucht …</div>
+        </div>
+        <section class="acceptance" aria-labelledby="acceptance-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">Ein Klick · sichtbarer Zustand</p><h2 id="acceptance-title">Zehn Startfälle</h2></div>
+            <label class="inline-check"><input id="hide-passed" type="checkbox"> Bestandene ausblenden</label>
+          </div>
+          <div id="acceptance-cases" class="acceptance-grid"></div>
+          <p id="acceptance-status" class="status" role="status">Fall wählen · Ergebnis bleibt bis zur Sichtprüfung offen.</p>
+          <details id="legacy-review" class="legacy-review" hidden><summary>Übernommene Notizen aus früherer Prüfrevision</summary><div id="legacy-notes"></div></details>
+        </section>
+        <p id="native-status" class="status">Manifest wird geprüft.</p>
+        <div class="native-toolbar">
+          <label>Frontplätze
+            <select id="participant-count">
+              <option value="1">1 Person</option>
+              <option value="2">2 Personen</option>
+              <option value="3">3 Personen</option>
+            </select>
+          </label>
+          <div id="room-controls" class="room-controls" hidden>
+            <label>Tischfarbe <input id="table-color" type="color" value="#d7cab4"></label>
+            <label>Stuhlfarbe <input id="scene-chair-color" type="color" value="#b1b4ba"></label>
+            <label>Sprecher
+              <select id="scene-speaker"><option value="-1">Niemand</option></select>
+            </label>
+            <label class="inline-check"><input id="own-side" type="checkbox"> Eigene Seite im Vordergrund</label>
+            <div id="background-choices" class="background-choices" role="group" aria-label="Hintergrund" hidden></div>
+          </div>
+          <div id="participant-tabs" class="participant-tabs" role="group" aria-label="Person bearbeiten"></div>
+          <button id="reset-native" class="secondary" type="button">Native zurücksetzen</button>
+        </div>
+        <div id="contract-readiness" class="contract-readiness" aria-live="polite"></div>
+        <section id="host-recipes" class="host-recipes" hidden aria-labelledby="host-recipes-title">
+          <h3 id="host-recipes-title">Host-Rezepte · Frontlayout</h3>
+          <p>Explizite Consumer-Zuordnung für diese Prüfung; keine native Event-Metadaten-Behauptung.</p>
+          <div class="recipe-actions">
+            <label>Phase
+              <select id="phase-select"></select>
+            </label>
+            <button id="apply-phase" class="secondary" type="button">Auf aktive Person anwenden</button>
+            <label>Ereignis
+              <select id="event-select"></select>
+            </label>
+            <button id="dispatch-event" class="secondary" type="button">An aktive Person senden</button>
+          </div>
+          <ol id="event-log" class="event-log" aria-live="polite"></ol>
+        </section>
+        <div id="native-controls" class="controls" aria-label="Manifestierte native Steuerung" hidden>
+          <h3>Manifestierte Steuerung</h3>
+          <p>Nur Felder aus dem gelieferten nativen Vertrag werden angeboten.</p>
+          <div id="control-list" class="control-list"></div>
+        </div>
+        <details class="data-probe">
+          <summary>Data Binding Debug · Foto und Liste</summary>
+          <p>Separate technische Probe. Sie ist kein Personen-Preset und zählt nicht zur visuellen Abnahme.</p>
+          <canvas id="data-probe-canvas" width="320" height="180" aria-label="Rive Data Binding Probe"></canvas>
+          <button id="run-data-probe" class="secondary" type="button">Probe im Browser ausführen</button>
+          <p id="data-probe-status" class="status">Noch nicht ausgeführt.</p>
+        </details>
+      </article>
+
+      <details class="panel source-panel">
+        <summary class="panel-head">
+          <div>
+            <span class="kind source-kind">Source SVG · Referenz</span>
+            <h2 id="source-name">M. Keller</h2>
+          </div>
+          <span id="source-count" class="counter">01 / 20</span>
+        </summary>
+        <div class="view-tabs" role="group" aria-label="Referenzansicht">
+          <button type="button" data-view="front" aria-pressed="true">Vorne</button>
+          <button type="button" data-view="turn-left" aria-pressed="false">Links</button>
+          <button type="button" data-view="turn-right" aria-pressed="false">Rechts</button>
+        </div>
+        <div class="stage source-stage">
+          <img id="source-image" alt="M. Keller, unveränderte SVG-Referenz, Vorderansicht">
+        </div>
+        <p class="status">Nur visuelle Quelle. Diese Auswahl steuert die native Rive-Szene nicht.</p>
+      </details>
+    </section>
+
+    <section class="section-block" aria-labelledby="references-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Quelle · keine nativen Presets</p>
+          <h2 id="references-title">20 Personen-Referenzen</h2>
+        </div>
+        <p>Wähle eine Person für die große SVG-Ansicht. Drehansichten bleiben Quellenreferenzen und sind keine U-Form-Implementierung.</p>
+      </div>
+      <div id="reference-grid" class="reference-grid"></div>
+    </section>
+
+    <section class="section-block review-actions" aria-label="Playground exportieren">
+      <button id="export-review" type="button">Playground-Review als JSON exportieren</button>
+      <span id="save-status" role="status">Lokal im Browser gespeichert.</span>
+    </section>
+  </main>
+
+  <footer>
+    Standalone JavaScript · Frontlayout only · lokale Rive-Canvas-Laufzeit · keine Änderung am Character Studio
+  </footer>
+  <script src="./vendor/rive.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

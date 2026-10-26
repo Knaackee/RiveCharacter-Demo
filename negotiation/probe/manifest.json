@@ -1,0 +1,53 @@
+{
+  "schema": "negotiation24-probe-public/1",
+  "artboard": "Negotiation Person Probe",
+  "stateMachine": "Person State",
+  "viewModel": "Person",
+  "files": {
+    "riv": "person.riv"
+  },
+  "properties": [
+    {
+      "name": "lookX",
+      "type": "Number",
+      "range": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "headTurn",
+      "type": "Number",
+      "range": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "clothColor",
+      "type": "Color"
+    },
+    {
+      "name": "skinColor",
+      "type": "Color"
+    },
+    {
+      "name": "viseme",
+      "type": "Number",
+      "range": [
+        0,
+        9
+      ]
+    }
+  ],
+  "dataProbe": {
+    "viewModel": "DataProbe",
+    "imageProperty": "photo",
+    "listProperty": "rows",
+    "listItems": 2
+  },
+  "sha256": {
+    "riv": "21a57a199404e607595c4803c17c0fd74691f434a5554f53441aa6395d067404"
+  },
+  "humanAcceptance": "pending"
+}
